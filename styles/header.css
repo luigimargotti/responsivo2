@@ -1,0 +1,39 @@
+.cabelho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+save and update your page
+
+
+then we continue with the definition of element alignment, image spacing
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__image {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
